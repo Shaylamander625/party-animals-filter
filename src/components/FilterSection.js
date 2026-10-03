@@ -9,23 +9,13 @@ const FilterSection = ({ filters, setFilters, isKorean, translations }) => {
   const handleFilterChange = (characteristic) => {
     setFilters(prev => ({
       ...prev,
-      [characteristic]: prev[characteristic] === undefined ? true : 
-                       prev[characteristic] === true ? false : 
-                       undefined
+      [characteristic]: prev[characteristic] ? undefined : true
     }));
   };
 
-  const getButtonColor = (value) => {
-    if (value === undefined) return 'white';
-    if (value === true) return 'green.400';
-    return 'red.400';
-  };
+  const getButtonColor = (value) => value ? 'green.400' : 'white';
 
-  const getButtonText = (value) => {
-    if (value === undefined) return '';
-    if (value === true) return '✓';
-    return '−';
-  };
+  const getButtonText = (value) => value ? '✓' : '';
 
   return (
     <Box p={4} borderWidth="1px" borderRadius="lg">

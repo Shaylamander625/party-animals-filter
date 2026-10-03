@@ -43,11 +43,7 @@ function App() {
   }, []);
 
   const filteredCharacters = useMemo(() => charactersData.filter(character => {
-    return Object.entries(filters).every(([key, value]) => {
-      if (value === undefined) return true;
-      if (value === true) return character[key] === 'TRUE';
-      return character[key] === 'FALSE';
-    });
+    return Object.entries(filters).every(([key, value]) => !value || character[key] === 'TRUE');
   }), [filters]);
 
   return (
