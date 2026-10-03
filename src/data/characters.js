@@ -1,6 +1,34 @@
 export const charactersData = [
   {
+    "Character Name": "2662",
+    "Big-Eyed": "TRUE",
+    "Canines": "FALSE",
+    "Diving": "TRUE",
+    "Egg-Laying": "TRUE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "FALSE",
+    "Plant-Eating": "FALSE"
+  }, 
+  {
     "Character Name": "Bacon",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "FALSE",
+    "Plant-Eating": "TRUE"
+  },
+  {
+    "Character Name": "Barbara",
     "Big-Eyed": "FALSE",
     "Canines": "FALSE",
     "Diving": "FALSE",
@@ -52,6 +80,20 @@ export const charactersData = [
     "Flying": "FALSE",
     "Horned": "FALSE",
     "Long Tailed": "TRUE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
+    "Character Name": "Buddy",
+    "Big-Eyed": "TRUE",
+    "Canines": "TRUE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
     "Meat-Eating": "TRUE",
     "Plant-Eating": "FALSE"
   },
@@ -137,6 +179,20 @@ export const charactersData = [
     "Horned": "FALSE",
     "Long Tailed": "TRUE",
     "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
+    "Character Name": "Eggy",
+    "Big-Eyed": "TRUE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "TRUE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "FALSE",
     "Plant-Eating": "FALSE"
   },
   {
@@ -266,6 +322,20 @@ export const charactersData = [
     "Plant-Eating": "TRUE"
   },
   {
+    "Character Name": "Hoot",
+    "Big-Eyed": "TRUE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "TRUE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "TRUE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
     "Character Name": "Kato",
     "Big-Eyed": "FALSE",
     "Canines": "TRUE",
@@ -308,6 +378,20 @@ export const charactersData = [
     "Plant-Eating": "TRUE"
   },
   {
+    "Character Name": "Lamar",
+    "Big-Eyed": "TRUE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "TRUE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "FALSE",
+    "Plant-Eating": "TRUE"
+  },
+  {
     "Character Name": "Levi",
     "Big-Eyed": "FALSE",
     "Canines": "FALSE",
@@ -334,6 +418,20 @@ export const charactersData = [
     "Long Tailed": "FALSE",
     "Meat-Eating": "FALSE",
     "Plant-Eating": "TRUE"
+  },
+  {
+    "Character Name": "Logan",
+    "Big-Eyed": "FALSE",
+    "Canines": "TRUE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "TRUE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
   },
   {
     "Character Name": "Lotus",
@@ -406,6 +504,34 @@ export const charactersData = [
     "Plant-Eating": "FALSE"
   },
   {
+    "Character Name": "Milky",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "TRUE",
+    "Fluffy": "TRUE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
+    "Character Name": "Milou",
+    "Big-Eyed": "FALSE",
+    "Canines": "TRUE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "TRUE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
     "Character Name": "Miu",
     "Big-Eyed": "FALSE",
     "Canines": "FALSE",
@@ -448,6 +574,20 @@ export const charactersData = [
     "Plant-Eating": "TRUE"
   },
   {
+    "Character Name": "Naru",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "FALSE",
+    "Plant-Eating": "TRUE"
+  },
+  {
     "Character Name": "Nemo",
     "Big-Eyed": "FALSE",
     "Canines": "TRUE",
@@ -458,6 +598,20 @@ export const charactersData = [
     "Flying": "FALSE",
     "Horned": "FALSE",
     "Long Tailed": "FALSE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
+    "Character Name": "Noodle",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "TRUE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
     "Meat-Eating": "TRUE",
     "Plant-Eating": "FALSE"
   },
@@ -518,6 +672,34 @@ export const charactersData = [
     "Plant-Eating": "FALSE"
   },
   {
+    "Character Name": "Raven",
+    "Big-Eyed": "TRUE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "TRUE",
+    "Felines": "FALSE",
+    "Fluffy": "TRUE",
+    "Flying": "TRUE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
+    "Character Name": "Roach",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
+    "Meat-Eating": "FALSE",
+    "Plant-Eating": "TRUE"
+  },
+  {
     "Character Name": "Ron",
     "Big-Eyed": "FALSE",
     "Canines": "TRUE",
@@ -528,6 +710,20 @@ export const charactersData = [
     "Flying": "FALSE",
     "Horned": "FALSE",
     "Long Tailed": "FALSE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
+  },
+  {
+    "Character Name": "Sal",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "TRUE",
+    "Egg-Laying": "TRUE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
     "Meat-Eating": "TRUE",
     "Plant-Eating": "FALSE"
   },
@@ -558,6 +754,20 @@ export const charactersData = [
     "Long Tailed": "FALSE",
     "Meat-Eating": "FALSE",
     "Plant-Eating": "TRUE"
+  },
+  {
+    "Character Name": "Skipper",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "TRUE",
+    "Egg-Laying": "TRUE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
   },
   {
     "Character Name": "Snow",
@@ -686,6 +896,20 @@ export const charactersData = [
     "Plant-Eating": "FALSE"
   },
   {
+    "Character Name": "Tyrex",
+    "Big-Eyed": "FALSE",
+    "Canines": "FALSE",
+    "Diving": "TRUE",
+    "Egg-Laying": "TRUE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "FALSE",
+    "Meat-Eating": "FALSE",
+    "Plant-Eating": "FALSE"
+  },
+  {
     "Character Name": "Underbite",
     "Big-Eyed": "FALSE",
     "Canines": "FALSE",
@@ -726,6 +950,20 @@ export const charactersData = [
     "Long Tailed": "FALSE",
     "Meat-Eating": "FALSE",
     "Plant-Eating": "TRUE"
+  },
+  {
+    "Character Name": "Vicksy",
+    "Big-Eyed": "TRUE",
+    "Canines": "TRUE",
+    "Diving": "FALSE",
+    "Egg-Laying": "FALSE",
+    "Felines": "FALSE",
+    "Fluffy": "FALSE",
+    "Flying": "FALSE",
+    "Horned": "FALSE",
+    "Long Tailed": "TRUE",
+    "Meat-Eating": "TRUE",
+    "Plant-Eating": "FALSE"
   },
   {
     "Character Name": "Yurusa",
