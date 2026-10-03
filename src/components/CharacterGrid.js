@@ -5,15 +5,10 @@ const CharacterCard = ({ character, isKorean, translations, nameTranslations, im
   
   const getImageUrl = (name) => {
     const webpUrl = `${process.env.PUBLIC_URL}/images/${name}.webp`;
-    const pngUrl = `${process.env.PUBLIC_URL}/images/${name}.png`;
-    
+
     return (
-      <Image 
+      <Image
         src={webpUrl}
-        onError={(e) => {
-          e.target.onerror = null;
-          e.target.src = pngUrl;
-        }}
         alt={characterName}
         boxSize="80px"
         objectFit="cover"
