@@ -1,13 +1,15 @@
 # Party Animals Character Filter
 
-파티 애니멀즈 게임의 캐릭터들을 특성별로 필터링할 수 있는 웹사이트입니다.
+A website for filtering the characters in the game Party Animals by their traits.
 
-## 주요 기능
-- 캐릭터 특성별 필터링 (육식/초식, 개과/고양이과 등)
-- 한글/영문 전환
-- 모바일 반응형 디자인
+> Forked from [Byung Sun's repo](https://github.com/byung-sun/party-animals-filter) and maintained by [Shaylamander625](https://github.com/Shaylamander625).
 
-## 기술 스택
+## Features
+- Filter characters by trait (meat-eating/plant-eating, canines/felines, etc.)
+- Switch between Korean and English
+- Mobile-responsive design
+
+## Tech Stack
 - React
 - Chakra UI
-- GitHub Pages 
+- GitHub Pages
