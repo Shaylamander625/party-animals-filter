@@ -1,10 +1,7 @@
 import { SimpleGrid, Box, Button, Text, Flex } from '@chakra-ui/react';
 
 const FilterSection = ({ filters, setFilters, isKorean, translations }) => {
-  const characteristics = [
-    'Big-Eyed', 'Canines', 'Diving', 'Egg-Laying', 'Felines',
-    'Fluffy', 'Flying', 'Horned', 'Long Tailed', 'Meat-Eating', 'Plant-Eating'
-  ];
+  const characteristics = Object.keys(translations)
 
   const handleFilterChange = (characteristic) => {
     setFilters(prev => ({
@@ -18,7 +15,7 @@ const FilterSection = ({ filters, setFilters, isKorean, translations }) => {
   const getButtonText = (value) => value ? '✓' : '';
 
   return (
-    <Box p={4} borderWidth="1px" borderRadius="lg">
+    <Box p={4}>
       <SimpleGrid columns={[3, 4, 6]} spacing={4}>
         {characteristics.map(characteristic => (
           <Flex 
@@ -30,7 +27,7 @@ const FilterSection = ({ filters, setFilters, isKorean, translations }) => {
               size="sm"
               onClick={() => handleFilterChange(characteristic)}
               bg={getButtonColor(filters[characteristic])}
-              color={filters[characteristic] === undefined ? 'black' : 'white'}
+              color={filters[characteristic] ? 'black' : 'white'}
               _hover={{ opacity: 0.8 }}
               w="30px"
               h="30px"
